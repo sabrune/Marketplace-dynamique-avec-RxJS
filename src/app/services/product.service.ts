@@ -33,7 +33,16 @@ export class ProductService {
       category: "ADULT",
       image: "https://via.placeholder.com/500",
       description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-      price: 4.99,
+      price: 30.12,
+      isSelected: false
+    },
+    {
+      id: 4,
+      title: "Nike",
+      category: "ADULT",
+      image: "https://via.placeholder.com/500",
+      description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      price: 12.50,
       isSelected: false
     }
   ];

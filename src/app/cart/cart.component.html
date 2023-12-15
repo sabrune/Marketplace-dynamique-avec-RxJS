@@ -1,0 +1,21 @@
+<div class="wrap cf">
+  <h1 class="projTitle">Cart</h1>
+  <div class="cart">
+    <ul class="cartWrap">
+      <li class="items odd" *ngFor="let product of cartItems">
+
+        <div class="infoWrap" >
+          <div class="cartSection">
+            <img [src]="product.item.image" alt="" class="itemImg" />
+
+            <h3>{{ product.item.title}}</h3>
+            <p> <input type="text"  class="qty" [placeholder]="product.quantity"/> x ${{product.item.price}}</p>
+          </div>
+          <div class="prodTotal cartSection">
+            <p>${{product.item.price}}</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
